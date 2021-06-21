@@ -31,7 +31,7 @@ public class MapMain {
 			String value = map.get(key);
 			System.out.println(key + "," + value);
 		}
-		
+		//
 		// 3. entrySet 에 key, value 담아 반복자로 꺼냄
 		Set<Map.Entry<String, String>> entrySet = map.entrySet(); // 키, 값을 모아 entrySet으로 만듬
 		Iterator<Map.Entry<String, String>> entryIterator = entrySet.iterator(); // entrySet 을 반복자로 돌림
